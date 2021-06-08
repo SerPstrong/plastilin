@@ -1,0 +1,26 @@
+@import "normalize";
+@import "fonts";
+@import "header";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+  //border: darkred dashed 0.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
