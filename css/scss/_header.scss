@@ -263,42 +263,49 @@
   background-color: #eaecf0;
 }
 
-.block-icon_graf {
-  width: 50px;
-  height: 50px;
-  background-color: #eaecf0;
-  background-image: url(../img/graf.svg);
-  background-size: 17px;
-  background-position: center;
-  background-repeat: no-repeat;
+.block-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+
+  &_graf {
+    width: 50px;
+    height: 50px;
+    background-color: #eaecf0;
+    background-image: url(../img/graf.svg);
+    background-size: 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &_hel {
+    width: 50px;
+    height: 50px;
+    background-color: #eaecf0;
+    background-image: url(../img/hel.svg);
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &_bas {
+    width: 50px;
+    height: 50px;
+    background-color: #eaecf0;
+    background-image: url(../img/bas.svg);
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &_men {
+    width: 50px;
+    height: 50px;
+    background-color: #eaecf0;
+    background-image: url(../img/men.svg);
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
-.block-icon_hel {
-  width: 50px;
-  height: 50px;
-  background-color: #eaecf0;
-  background-image: url(../img/hel.svg);
-  background-size: 22px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.block-icon_bas {
-  width: 50px;
-  height: 50px;
-  background-color: #eaecf0;
-  background-image: url(../img/bas.svg);
-  background-size: 22px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.block-icon_men {
-  width: 50px;
-  height: 50px;
-  background-color: #eaecf0;
-  background-image: url(../img/men.svg);
-  background-size: 22px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
